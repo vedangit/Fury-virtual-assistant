@@ -12,20 +12,20 @@ def speak(audio):
 # speak("Good morning sunshine")
 
 
-# def takeCommand():
+def takeCommand():
  
-#     r = sr.Recognizer()
-#     with sr.Microphone() as source:
-#         print("Listening...")
-#         r.pause_threshold = 1
-#         audio = r.listen(source)
+    r = sr.Recognizer()
+    with sr.Microphone() as source:
+        print("Listening...")
+        r.pause_threshold = 1
+        audio = r.listen(source)
  
-#     try:
-#         print("Analysing...")    
-#         query = r.recognize_google(audio, language='en-in')
-#         print("User said: {}\n".format(query))
+    try:
+        print("Analysing...")    
+        query = r.recognize_google(audio, language='en-in')
+        print("User said: {}\n".format(query))
  
-#     except Exception:
-#         print("Say that again please...")  
-#         return "None"
-#     return query
+    except Exception:
+        print("Say that again please...")  
+        return "None"
+    return query
