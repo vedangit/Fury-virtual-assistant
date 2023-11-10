@@ -4,7 +4,7 @@ This Python project implements a simple voice assistant inspired by the characte
 ## Prerequisites
 Before running the program, make sure you have the required libraries installed. All the requirements are listed in the requirements.txt file. You can install them using the following command:
 
-    `pip install -r requirements.txt`
+    pip install -r requirements.txt
 
 ## File Structure
 main.py: The main script that acts as the entry point for the voice assistant.
@@ -13,7 +13,7 @@ speech.py: Module containing functions for speech synthesis and speech recogniti
 ## Usage
 Run the main.py script to start the voice assistant.
 
-    `python main.py`
+    python main.py
     
 The assistant will continuously listen for your voice commands
 
