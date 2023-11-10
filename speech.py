@@ -11,7 +11,6 @@ def speak(audio):
  
 # speak("Good morning sunshine")
 
-
 def takeCommand():
  
     r = sr.Recognizer()
